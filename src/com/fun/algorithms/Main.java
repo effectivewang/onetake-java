@@ -7,6 +7,8 @@ import com.fun.algorithms.arrays.WordBreak;
 import com.fun.algorithms.strings.CommonLongestPrefix;
 import com.fun.algorithms.strings.EditDistance;
 import com.fun.algorithms.strings.ZigZagConversion;
+import com.fun.algorithms.trees.BSTRecover;
+import com.fun.algorithms.trees.BSTValidator;
 import com.fun.algorithms.trees.PathSum;
 import com.fun.algorithms.trees.SumRootToLeafNumbers;
 
@@ -40,7 +42,13 @@ public class Main {
         //SumRootToLeafNumbers rootToLeafNumbers = new SumRootToLeafNumbers();
         //rootToLeafNumbers.run();
 
-        PathSum pathSum = new PathSum();
-        pathSum.run();
+        //PathSum pathSum = new PathSum();
+        //pathSum.run();
+
+        //BSTValidator bstValidator = new BSTValidator();
+        //bstValidator.run();
+
+        BSTRecover bstRecover = new BSTRecover();
+        bstRecover.run();
     }
 }

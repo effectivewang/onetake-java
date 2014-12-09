@@ -1,7 +1,7 @@
 package com.fun.algorithms.trees;
 
 /**
- * Created by xionwang on 14/12/8.
+ * Binary Tree Node.
  */
 
 public class TreeNode {
