@@ -1,9 +1,6 @@
 package com.fun.algorithms;
 
-import com.fun.algorithms.arrays.MaxProduct;
-import com.fun.algorithms.arrays.MaxSubArray;
-import com.fun.algorithms.arrays.TwoSum;
-import com.fun.algorithms.arrays.WordBreak;
+import com.fun.algorithms.arrays.*;
 import com.fun.algorithms.strings.CommonLongestPrefix;
 import com.fun.algorithms.strings.EditDistance;
 import com.fun.algorithms.strings.ZigZagConversion;
@@ -48,7 +45,10 @@ public class Main {
         //BSTValidator bstValidator = new BSTValidator();
         //bstValidator.run();
 
-        BSTRecover bstRecover = new BSTRecover();
-        bstRecover.run();
+        //BSTRecover bstRecover = new BSTRecover();
+        //bstRecover.run();
+
+        ArrayMerger arrayMerger = new ArrayMerger();
+        arrayMerger.run();
     }
 }
